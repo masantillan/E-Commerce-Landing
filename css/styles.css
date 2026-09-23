@@ -8,6 +8,91 @@ html {
   font-size: 62.5%;
 }
 
-body{
-  font-family: ;
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+  background-color: #698e8c;
+  color: antiquewhite;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.boton {
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 1.3rem;
+}
+
+header,
+footer {
+  background: #bedbed;
+  color: antiquewhite;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  padding: 1rem 4rem;
+}
+
+.logo,
+.nav-head ul li a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: inherit;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.nav-head{
+  list-style: none;
+  display: flex;
+}
+
+img{
+  width: 30rem;
+}
+
+.logos-foot{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.img-foot{
+  width: 3rem;
 }

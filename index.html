@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Inicio | Manu's E-Commerce</title>
   </head>
   <body>
     <header>
-      <div class="logo"><a href="./index.html">Manu</a></div>
-      <nav>
-        <ul>
+      <div class="logo-nav"><a class="logo" href="./index.html">Manu</a></div>
+      <nav class="nav-head">
+        <ul class="nav-head">
           <li><a href="./index.html">Inicio</a></li>
           <li><a href="./pages/contacto.html">Contacto</a></li>
         </ul>
@@ -27,27 +30,21 @@
 
       <section>
         <h2>欢迎！</h2>
-        <div class="">
+        <div class="fichas">
           <article>
-            <img
-              src="./img/amuleto-moneda.jpg"
-              alt="Imagen de un amuleto chino"
-            />
+            <img src="./img/amuleto-moneda.jpg" alt="Imagen de un amuleto chino"/>
             <h3>Amuleto</h3>
             <p>Monedas de la Suerte</p>
             <p>$3.000</p>
-            <button class="">Agregar a mi carrito</button>
-          </article>
-
+            <button class="boton">Agregar a mi carrito</button>
+        </article>
+        
           <article>
-            <img
-              src="./img/colgante-nudo.jpg"
-              alt="Imagen de un amuleto chino"
-            />
+            <img src="./img/colgante-nudo.jpg" alt="Imagen de un amuleto chino"/>
             <h3>Amuleto</h3>
             <p>Monedas de la Suerte</p>
             <p>$3.000</p>
-            <button class="">Agregar a mi carrito</button>
+            <button class="boton">Agregar a mi carrito</button>
           </article>
 
           <article>
@@ -55,7 +52,7 @@
             <h3>Figura</h3>
             <p>Leon Chino, se mueve con la luz solar</p>
             <p>$15.000</p>
-            <button class="">Agregar a mi carrito</button>
+            <button class="boton">Agregar a mi carrito</button>
           </article>
 
           <article>
@@ -63,18 +60,17 @@
             <h3>Figura</h3>
             <p>Maneki Neko</p>
             <p>$15.000</p>
-            <button class="">Agregar a mi carrito</button>
+            <button class="boton">Agregar a mi carrito</button>
           </article>
         </div>
       </section>
     </main>
     <footer>
-      Sitio realizado por Manuel Santillan para
-      <a href="https://talentotech.bue.edu.ar/">Talento Tech</a>
+      <p>Sitio realizado por Manuel Santillan para <a href="https://talentotech.bue.edu.ar/">Talento Tech</a></p>
       <nav>
-        <ul>
-          <li><img src="./img/whatsapp.png" alt="" /></li>
-          <li><img src="./img/instagram.png" alt="" /></li>
+        <ul class="logos-foot">
+          <li><img class="img-foot" src="./img/whatsapp.png" alt="" /></li>
+          <li><img class="img-foot" src="./img/instagram.png" alt="" /></li>
         </ul>
       </nav>
     </footer>
