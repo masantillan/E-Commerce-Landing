@@ -96,3 +96,10 @@ img{
 .img-foot{
   width: 3rem;
 }
+
+.fichas{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 5rem;
+
+}
